@@ -9,14 +9,23 @@
   </head>
   <body>
     <h1>Binary addition</h1>
-    <textarea rows="1" cols="50" placeholder="Figure 1 (e.g. 110111)" id="fig1" onfocus="perform_addition();" onkeyup="perform_addition();" autocomplete="off" autofocus></textarea> <!-- this.select(); -->
+    <textarea rows="1" cols="50" placeholder="Figure 1 (e.g. 110111)" id="fig1" onfocus="perform_addition();" onkeyup="perform_addition();" autocomplete="off" autofocus></textarea>
     <br/>
     <textarea rows="1" cols="50" placeholder="Figure 2 (e.g. 001111)" id="fig2" onfocus="perform_addition();" onkeyup="perform_addition();" autocomplete="off"></textarea>
     <br/><br/>
     <textarea rows="7" cols="50" placeholder="Result will be shown here" id="res" onfocus="perform_addition();" autocomplete="off"></textarea>
     <br/><br/>
-    <tr><td><img src="circuit.png" alt="Circuit" class="center" /></td></tr>
-    
+    <tr><td><img src="circuit.png" alt="Circuit for addition" class="center" /></td></tr>
+	
+	<br/><br/>
+	<h1>Binary subtraction</h1>
+    <textarea rows="1" cols="50" placeholder="Figure 1 (e.g. 110111)" id="fig1s" onfocus="perform_subtraction();" onkeyup="perform_subtraction();" autocomplete="off" autofocus></textarea>
+    <br/>
+    <textarea rows="1" cols="50" placeholder="Figure 2 (e.g. 001111; will be subtracted from figure 1)" id="fig2s" onfocus="perform_subtraction();" onkeyup="perform_subtraction();" autocomplete="off"></textarea>
+    <br/><br/>
+    <textarea rows="7" cols="50" placeholder="Result will be shown here" id="ress" onfocus="perform_subtraction();" autocomplete="off"></textarea>
+    <br/><br/>
+    <tr><td><img src="circuit-subtraction.jpg" alt="Circuit for subtraction" class="center" /></td></tr>
   </body>
   
 </html>
